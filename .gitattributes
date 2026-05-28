@@ -1,0 +1,25 @@
+# Force LF for all text files — consistent with .editorconfig and docs/rules/code-style.md §13
+* text=auto
+
+# Source code and config
+*.py text eol=lf
+*.js text eol=lf
+*.css text eol=lf
+*.html text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.example text eol=lf
+
+# SVG is text (XML), but treat as binary to avoid line-ending conversion
+*.svg binary
+
+# Binary assets
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.pptx binary
+*.ico binary
